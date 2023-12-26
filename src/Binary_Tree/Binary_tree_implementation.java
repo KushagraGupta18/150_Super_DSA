@@ -96,6 +96,19 @@ public class Binary_tree_implementation {
 	}
 	
 	
+	public int height() {
+		return height(this.root);
+	}	
+	private int height(Node nn) {
+		if(nn==null) {
+			return -1;
+		}
+		int lht=height(nn.left);	//let height of single node is 0
+		int rht=height(nn.right);
+		return Math.max(lht, rht)+1;
+	}
+	
+	
 	
 	
 	
@@ -110,6 +123,7 @@ public class Binary_tree_implementation {
 		System.out.println(bt.max());
 		System.out.println(bt.find(30));
 		System.out.println(bt.find(90));
+		System.out.println(bt.height());
 		
 	}
 }
