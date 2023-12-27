@@ -112,9 +112,6 @@ public class Binary_tree_implementation {
 	
 	
 	
-	
-	
-	
 	public static void main(String[] args) {
 		Binary_tree_implementation bt=new Binary_tree_implementation();
 		//input ---> 10 true 20 true 70 false false false true 90 false true 11 false false
