@@ -1,5 +1,6 @@
 package Binary_Tree;
 
+import java.util.LinkedList;
 import java.util.Scanner;
 
 public class Binary_tree_Traversal {
@@ -75,6 +76,31 @@ public class Binary_tree_Traversal {
 	}
 	
 	
+	public void levelorder() {
+		levelorder(this.root);
+		System.out.println();
+	}
+	private void levelorder(Node nn) {
+		LinkedList<Node> queue=new LinkedList<>();
+		//Queue<Node> queue=new LinkedList<>();(inheritance)
+		queue.add(nn);	//add last
+		while(!queue.isEmpty()) {
+			Node rv=queue.remove();		//remove first
+			System.out.print(rv.data+" ");
+			if(rv.left!=null) {
+				queue.add(rv.left);
+			}
+			if(rv.right!=null) {
+				queue.add(rv.right);
+			}
+		}
+		
+	}
+
+	
+	
+	
+	
 	
 	
 	
@@ -86,6 +112,7 @@ public class Binary_tree_Traversal {
 		bt.preorder();
 		bt.postorder();
 		bt.inorder();
+		bt.levelorder();
 	}
 	
 	
