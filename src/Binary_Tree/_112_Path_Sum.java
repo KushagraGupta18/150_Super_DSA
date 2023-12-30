@@ -15,7 +15,7 @@ public class _112_Path_Sum {
 		           this.right = right;
 		       }
 	}
-	
+	 
 	class Solution {
 	    public boolean hasPathSum(TreeNode root, int targetSum) {
 	        if(root==null) {
@@ -25,9 +25,7 @@ public class _112_Path_Sum {
 	    		return true;	
 	    	}
 	    	
-	    	boolean leftsum=hasPathSum(root.left, targetSum-root.val);
-	    	boolean rightsum=hasPathSum(root.right, targetSum-root.val);
-		    return leftsum || rightsum;
+	    	return hasPathSum(root.left, targetSum-root.val) ||hasPathSum(root.right, targetSum-root.val);
 	    }
 	}
 	
