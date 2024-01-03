@@ -1,3 +1,4 @@
+//leetcode question number--->518
 package Dynamic_Programming;
 
 import java.util.Arrays;
@@ -14,10 +15,6 @@ public class _518_Coin_Change {
 			Arrays.fill(a, -1);
 		}
 		System.out.println(CoinChange(coin, amount, 0,dp));
-		
-		for(int[] a:dp) {
-			Arrays.fill(a, -1);
-		}
 		System.out.println(coinChangeBu(coin, amount));
 		
 	}
