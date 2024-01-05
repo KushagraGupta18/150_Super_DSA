@@ -8,7 +8,7 @@ public class _0_1_Knapsack {
 		int cap=4;
 		int[] size= {1,2,3,2,2};
 		int[] value= {8,4,0,5,3};
-		int[][] dp=new int[cap+1][size.length+1];
+		int[][] dp=new int[cap+1][size.length];
 		for (int i = 0; i < dp.length; i++) {
 			for (int j = 0; j < dp[0].length; j++) {
 				dp[i][j]=-1;

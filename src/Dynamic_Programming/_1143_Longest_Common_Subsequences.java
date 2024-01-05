@@ -8,7 +8,7 @@ public class _1143_Longest_Common_Subsequences {
 	public static void main(String[] args) {
 		String text1="abcde";
 		String text2="ace";
-		int[][] dp=new int[text1.length()+1][text2.length()+1];
+		int[][] dp=new int[text1.length()][text2.length()];
 		for(int [] a:dp) {
 			Arrays.fill(a, -1);
 		}

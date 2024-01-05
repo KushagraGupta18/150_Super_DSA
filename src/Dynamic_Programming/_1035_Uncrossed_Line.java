@@ -8,7 +8,7 @@ public class _1035_Uncrossed_Line {
 	public static void main(String[] args) {
 		int[] nums1= {1,4,2};
 		int[] nums2= {1,2,4};
-		int[][] dp=new int[nums1.length+1][nums2.length+1];
+		int[][] dp=new int[nums1.length][nums2.length];
 		for(int [] a:dp) {
 			Arrays.fill(a, -1);
 		}
