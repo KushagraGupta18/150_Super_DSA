@@ -35,6 +35,7 @@ public class _1_fibbonaccii {
 		return dp[n]=f1+f2; 		//yaad krna
 		
 	}
+	
 	//bottom up approach (bottom up is more optimised than top down approach)
 	public static int fibbBU(int n) {			//fibbBU---> fibonacci bottom up
 		int[] dp=new int[n+1];

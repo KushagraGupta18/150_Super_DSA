@@ -12,7 +12,7 @@ public class _12_Topological_Sort {
 			}
 		}
 		public void AddEdge(int v1 ,int v2) {//Add edge
-			map.get(v1).put(v2, 0);//v1--->v2 (unweighted)
+			map.get(v1).put(v2, 0);//v1--->v2 (unweighted )
 			
 		}
 }
