@@ -15,7 +15,7 @@ public class _13_Wine_Problem {
 		System.out.println(maxProfit(wine, 0, wine.length-1, year,dp));
 		System.out.println(maxProfitBU(wine));
 	}
-	//top down approach
+	//top down approach 
 	public static int maxProfit(int[] wine, int i, int j,int year,int[][] dp) {
 		if(i>j) {
 			return 0;
