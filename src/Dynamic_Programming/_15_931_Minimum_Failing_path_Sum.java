@@ -11,7 +11,7 @@ public class _15_931_Minimum_Failing_path_Sum {
 		
 		int[][] dp=new int[grid.length][grid[0].length];
 		for(int[] a:dp) {
-			Arrays.fill(a, -1);
+			Arrays.fill(a, Integer.MAX_VALUE);
 		}
 		int ans=Integer.MAX_VALUE;
 		for(int i=0;i<grid[0].length;i++) {
@@ -26,7 +26,7 @@ public class _15_931_Minimum_Failing_path_Sum {
 		if(i==grid.length-1 ) {
 			return grid[i][j];
 		}
-		if(dp[i][j]!=-1) {
+		if(dp[i][j]!=Integer.MAX_VALUE) {
 			return dp[i][j];
 		}
 		int down=minPath(grid, i+1, j,dp);
