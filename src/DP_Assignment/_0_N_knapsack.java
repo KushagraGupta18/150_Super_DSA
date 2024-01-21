@@ -3,7 +3,6 @@ import java.util.*;
 public class _0_N_knapsack {
 
 	public static void main(String[] args) {
-		
 		Scanner sc=new Scanner(System.in);
 		int n=sc.nextInt();
 		int cap=sc.nextInt();
