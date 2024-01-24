@@ -21,12 +21,29 @@ public class _7_Construct_tree_from_preorder_and_inorder {
 	    }
 
 	    //plo-->preorder low
-		//phi-->preordr high
+		//phi-->preorder high
 		//ilo-->inorder low
-		//ihi-->inordr high
-		private TreeNode create(int[] preorder, int plo, int phi, int[] inorder, int ilo, int ihi) {
+		//ihi-->inorder high
+		public TreeNode create(int[] preorder, int plo, int phi, int[] inorder, int ilo, int ihi) {
+			if(ilo>ihi || plo> phi) {
+				return null;
+			}
+			TreeNode nn=new TreeNode(preorder[plo]);
+			int i=Search(inorder,ilo,ihi,preorder[plo]);
+			int net=i-ilo;//no. of element just after root preorder[plo]-->root element
+			nn.left=create(preorder,plo+1,plo+net,inorder,ilo,i-1);
+			nn.right=create(preorder,plo+net+1,phi,inorder,i+1,ihi);
+			return nn;
 			
-			
+		}
+		
+		public int Search(int[] inorder,int si,int ei,int item) {
+			for(int i=si;i<=ei;i++) {
+				if(inorder[i]==item) {
+					return i;
+				}
+			}
+			return -1;
 		}
 	
 	
