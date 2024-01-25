@@ -3,7 +3,7 @@ package Dynamic_Programming;
 public class _19_MCM {
 //same question--->spoj mixture
 	public static void main(String[] args) {
-		
+		 
 		int[] arr= {4,2,3,5,1};
 		System.out.println(mcm(arr,0,arr.length-1));
 		System.out.println(mcmbu(arr));
