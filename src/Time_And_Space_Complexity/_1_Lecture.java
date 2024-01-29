@@ -60,7 +60,7 @@ public class _1_Lecture {
 			System.out.println("Hey");
               // n/K
 			int k=sc.nextInt();
-			i +=k;//k is an any variable
+			i +=k;//k is an any variable(not a constant)
 		}
 		
 		while (i <= n) {
@@ -110,7 +110,7 @@ public class _1_Lecture {
 		for (i = 1; i <= n; i++) {
 			for (int j = 1; j <= i; j++) {
 				for (int k = 1; k <= 1000; k++) {
-// 1000*N^2
+					// 1000*(N^2)
 				}
 			}
 		}
@@ -134,9 +134,9 @@ public class _1_Lecture {
 		}
 		
 		
-		for(i=n/2; i<=n; i++) {
-			for(int j=1; j<=n/2; j++) {
-				for(int k=1; k<=n; k=k*2) {
+		for(i=n/2; i<=n; i++) {// n/2
+			for(int j=1; j<=n/2; j++) {// n/2
+				for(int k=1; k<=n; k=k*2) {// log(n)
 					System.out.println("hey");
 					// N^2 log(n)
 				}
@@ -148,12 +148,7 @@ public class _1_Lecture {
 				System.out.println("hey");
 				// O N*Log(N)
 			}
-		}
-		         //  H w
-		        // bubble
-				// Selection
-				// instersion
-				
+		}				
 
 	}
 
