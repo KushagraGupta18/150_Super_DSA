@@ -5,7 +5,7 @@ public class _2_Random_Number {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		int si = 10;
-		int ei = 11;
+		int ei = 20;
 		Random_number(si, ei);
 
 	}
