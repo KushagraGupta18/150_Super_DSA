@@ -16,7 +16,7 @@ public class _2_Random_Number {
 		int lo = si;
 		int hi = ei;
 		for (int i = 0; i < 10; i++) {
-			int ri = rand.nextInt(hi - lo +1)+lo ;
+			int ri = rand.nextInt(hi - lo +1)+lo;
 			System.out.print(ri+" ");
 		}
 
