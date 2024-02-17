@@ -25,6 +25,7 @@
 //2nd students : 90 (total = 90)
 //Print max(113, 90)
 
+
 package Advanced_binary_search;
 import java.util.*;
 public class _2_Book_allocation_problem {
