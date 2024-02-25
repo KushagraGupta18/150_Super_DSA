@@ -1,6 +1,6 @@
 package Number_System_and_data_types;
 
-public class Conversion_of_decimal_with_any_base {
+public class _4_Conversion_of_decimal_with_any_base {
 
 	public static void main(String[] args) {
 		//1 base is decimal condition

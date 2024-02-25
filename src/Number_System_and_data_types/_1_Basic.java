@@ -1,8 +1,11 @@
 package Number_System_and_data_types;
 
-public class Basic {
-
+public class _1_Basic {
+	
 	public static void main(String[] args) {
+		System.out.println(flag);
+		kush();
+		System.out.println(flag);
 		//decimal(base 10)--->0 to 9
 		int x=67;
 		System.out.println(x);
@@ -66,7 +69,14 @@ public class Basic {
 	
 	
 	} 
-
+	
+	//we can access only static global variable inside the static function and in without static function we can access global variable as normal or static
+	//we can only acces static global variable in static function.
+	static boolean flag;
+	public static void kush() {
+		flag=true;		//it do changes on global variable after removing function from call stack our flag value will not change.
+		System.out.println(flag);
+	}
 
 	
 	

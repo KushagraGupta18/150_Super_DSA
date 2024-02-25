@@ -1,6 +1,6 @@
 package Number_System_and_data_types;
 
-public class Pascals_Triangle {
+public class _2_Pascals_Triangle {
 
 	
 //	1 			--->0c0

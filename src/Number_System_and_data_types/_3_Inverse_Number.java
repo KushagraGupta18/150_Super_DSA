@@ -1,6 +1,6 @@
 package Number_System_and_data_types;
 import java.util.*;
-public class Inverse_Number {
+public class _3_Inverse_Number {
 
 	
 	public static void main(String[] args) {
