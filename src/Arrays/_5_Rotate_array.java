@@ -1,7 +1,7 @@
 package Arrays;
 //leetcode quetion number--->189
 
-public class _4_Rotate_array {
+public class _5_Rotate_array {
 	//Reversal Algo
 	public static void main(String[] args) {
 		int[] arr= {1,2,3,4,5,6,7};
