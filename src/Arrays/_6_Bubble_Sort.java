@@ -1,6 +1,6 @@
 package Arrays;
 
-public class Bubble_Sort {
+public class _6_Bubble_Sort {
 
 	public static void main(String[] args) {
 		
