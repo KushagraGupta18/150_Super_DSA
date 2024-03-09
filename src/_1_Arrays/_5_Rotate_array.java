@@ -1,4 +1,4 @@
-package Arrays;
+package _1_Arrays;
 //leetcode quetion number--->189
 
 public class _5_Rotate_array {

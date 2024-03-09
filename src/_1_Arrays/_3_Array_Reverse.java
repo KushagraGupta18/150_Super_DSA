@@ -1,4 +1,4 @@
-package Arrays;
+package _1_Arrays;
 
 public class _3_Array_Reverse{
 

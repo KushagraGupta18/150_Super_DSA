@@ -1,4 +1,4 @@
-package Arrays;
+package _1_Arrays;
 
 public class _7_Selection_Sort {
 

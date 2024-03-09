@@ -1,4 +1,4 @@
-package Arrays;
+package _1_Arrays;
 //leetcode question number--->42(Trapping rain water) 
 public class _10_Trapping_Rain_Water {
 

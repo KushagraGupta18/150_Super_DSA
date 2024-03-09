@@ -1,4 +1,4 @@
-package Arrays;
+package _1_Arrays;
 
 //Prefix Algorithm
 //leetcode question no--->238(Product of array except itself)

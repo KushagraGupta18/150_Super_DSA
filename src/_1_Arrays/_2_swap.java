@@ -1,4 +1,4 @@
-package Arrays;
+package _1_Arrays;
 
 public class _2_swap {
 
