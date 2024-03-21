@@ -5,7 +5,7 @@ public class _11_Binary_Search {
 	public static void main(String[] args) {
 		
 		int[] arr= {2,5,8,9,12,14,15,16,17};
-		System.out.println(Search(arr, 8));
+		System.out.println(Search(arr, 8));//print idx of item
 	}
 	public static int Search(int[] arr, int item) {
 		int lo=0;
