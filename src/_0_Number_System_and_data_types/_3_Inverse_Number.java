@@ -1,4 +1,4 @@
-package Number_System_and_data_types;
+package _0_Number_System_and_data_types;
 import java.util.*;
 public class _3_Inverse_Number {
 
