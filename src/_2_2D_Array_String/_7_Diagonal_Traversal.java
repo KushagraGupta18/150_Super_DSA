@@ -1,7 +1,7 @@
-package _4_ArrayList;
+package _2_2D_Array_String;
 //leetcode question number---> 498
 import java.util.*;
-public class _3_Diagonal_Traversal {
+public class _7_Diagonal_Traversal {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

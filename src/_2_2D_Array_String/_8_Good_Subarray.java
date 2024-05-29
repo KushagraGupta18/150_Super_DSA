@@ -1,6 +1,6 @@
 package _2_2D_Array_String;
 import java.util.*;
-public class _7_Good_Subarray {
+public class _8_Good_Subarray {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
